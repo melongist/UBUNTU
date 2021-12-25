@@ -23,7 +23,21 @@ sudo bash /opt/processing/install.sh
 sudo rm processing-3.5.4-linux64.tgz
 
 #reboot
-echo 'processing 3.5.4 for Ubuntu Desktop 20.04.3 installed!'
-sleep 5
+clear
+
+echo ''
+echo 'processing 3.5.4'
+echo 'for Ubuntu Desktop 20.04.3 installed!'
+echo ''
+echo 'system will be rebooted!'
+echo ''
+COUNT=5
+while [ $COUNT -ge 0 ]
+do
+  echo $COUNT
+  ((COUNT--))
+  sleep 1
+done
 echo 'rebooted!'
+sleep 1
 sudo reboot

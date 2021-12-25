@@ -1,4 +1,4 @@
-#hancom HWP installation
+#hancom hoffice installation
 #for Ubuntu Desktop 20.04.3
 
 #referenced
@@ -25,5 +25,21 @@ sudo rm hoffice_11.20.0.1520_amd64.deb
 gsettings set org.freedesktop.ibus.engine.hangul use-event-forwarding false
 
 #reboot
-sudo reboot
+clear
 
+echo ''
+echo 'hoffice 11.20.0.1520'
+echo 'for Ubuntu Desktop 20.04.3 installed!'
+echo ''
+echo 'system will be rebooted!'
+echo ''
+COUNT=5
+while [ $COUNT -ge 0 ]
+do
+  echo $COUNT
+  ((COUNT--))
+  sleep 1
+done
+echo 'rebooted!'
+sleep 1
+sudo reboot
