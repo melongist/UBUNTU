@@ -15,10 +15,9 @@ wget https://github.com/processing/processing/releases/download/processing-0270-
 
 #install
 sudo tar -xvf processing-3.5.4-linux64.tgz
-sudo mv ~/processing-3.5.4 ~/processing
-sudo mv ~/processing /opt/.
+sudo mv ./processing-3.5.4 ./processing
+sudo mv ./processing /opt/.
 sudo bash /opt/processing/install.sh
-sudo chmod 700 ~/Desktop/processing-pde.desktop
 
 #file remove
 sudo rm processing-3.5.4-linux64.tgz
