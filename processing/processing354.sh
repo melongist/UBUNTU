@@ -6,6 +6,7 @@
 
 sudo apt update
 sudo apt -y upgrade
+sudo apt -y autoremove
 
 #processing version check
 #https://processing.org/download
@@ -21,6 +22,9 @@ sudo bash /opt/processing/install.sh
 
 #file remove
 sudo rm processing-3.5.4-linux64.tgz
+
+#korean font
+sudo apt -y install fonts-nanum
 
 #reboot
 clear
