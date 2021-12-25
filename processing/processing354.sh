@@ -12,7 +12,7 @@ sudo apt -y autoremove
 #https://processing.org/download
 
 #3.5.4
-get https://github.com/processing/processing/releases/download/processing-0270-3.5.4/processing-3.5.4-linux64.tgz
+wget https://github.com/processing/processing/releases/download/processing-0270-3.5.4/processing-3.5.4-linux64.tgz
 sudo tar -xvf processing-3.5.4-linux64.tgz
 sudo mv ./processing-3.5.4 ./processing
 sudo mv ./processing /opt/.
@@ -22,7 +22,7 @@ sudo rm processing-3.5.4-linux64.tgz
 #korean font
 sudo apt -y install fonts-nanum
 
-#bug fix
+#bug fix needed!!
 #https://github.com/processing/processing/issues/5308#issuecomment-367534475
 
 #reboot
