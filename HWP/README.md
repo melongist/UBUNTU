@@ -8,7 +8,7 @@ for korea students ubuntu notebook
 <pre><code>
 wget https://raw.githubusercontent.com/melongist/UBUNTU/master/HWP/hoffice112001520.sh
    
-bash hoffice222001520.sh
+bash hoffice112001520.sh
 </code></pre>
 
 #설치후 재부팅이 된 후에 바로가기를 추가한 후 사용하면 편리합니다.
