@@ -23,5 +23,5 @@ sudo bash /opt/processing/install.sh
 sudo rm processing-3.5.4-linux64.tgz
 
 #reboot
-sudo reboot
+#sudo reboot
 
