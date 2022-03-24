@@ -13,11 +13,11 @@ sudo apt -y autoremove
 
 #4.0b7
 wget https://github.com/processing/processing4/releases/download/processing-1282-4.0b7/processing-4.0b7-linux-x64.tgz
-sudo tar -xvf processing-4.0b7-linux64.tgz
+sudo tar -xvf processing-4.0b7-linux-x64.tgz
 sudo mv ./processing-4.0b7 ./processing
 sudo mv ./processing /opt/.
 sudo bash /opt/processing/install.sh
-sudo rm processing-4.0b7-linux64.tgz
+sudo rm processing-4.0b7-linux-x64.tgz
 
 #korean font
 sudo apt -y install fonts-nanum
