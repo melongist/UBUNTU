@@ -2,12 +2,12 @@
 for korea students ubuntu notebook 
 
 
-#아래 명령을 실행하면, processing 4.0.beta 7 을 설치합니다.   
+#아래 명령을 실행하면, processing 4.0.beta 8 을 설치합니다.   
    
 <pre><code>
-wget https://raw.githubusercontent.com/melongist/UBUNTU/master/processing/processing40b7.sh
+wget https://raw.githubusercontent.com/melongist/UBUNTU/master/processing/processing40b8.sh
    
-bash processing40b7.sh
+bash processing40b8.sh
 </code></pre>
 
 
