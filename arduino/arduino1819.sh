@@ -14,6 +14,9 @@ sudo bash /opt/arduino/install.sh
 
 sudo usermod -a -G dialout $USER
 
+#korean font
+sudo apt -y install fonts-nanum
+
 #reboot
 clear
 
