@@ -1,8 +1,13 @@
 #hancom hoffice installation
-#for Ubuntu Desktop 20.04.3
+#for Ubuntu Desktop 20.04.4
 
 #referenced
 #https://dawoum.ddns.net/wiki/Installing_hoffice_2022_beta_on_Ubuntu
+
+if [[ $SUDO_USER ]] ; then
+  echo "Just use 'hoffice112001520.sh'"
+  exit 1
+fi
 
 sudo apt update
 sudo apt -y upgrade
@@ -30,7 +35,7 @@ clear
 
 echo ''
 echo 'hoffice 11.20.0.1520'
-echo 'for Ubuntu Desktop 20.04.3 installed!'
+echo 'for Ubuntu Desktop 20.04.4 installed!'
 echo ''
 echo 'system will be rebooted!'
 echo ''
