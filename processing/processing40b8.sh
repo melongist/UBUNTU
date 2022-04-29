@@ -4,6 +4,11 @@
 #referenced
 #http://www.artsnova.com/processing/Installing-Processing-on-Ubuntu-LTS-Focal-Fossa.html
 
+if [[ $SUDO_USER ]] ; then
+  echo "Just use 'bash processing40b8.sh'"
+  exit 1
+fi
+
 sudo apt update
 sudo apt -y upgrade
 sudo apt -y autoremove
