@@ -1,7 +1,7 @@
 #ubuntu 20.04.04 LTS + arduino IDE 1.8.19 Linux 64bits
 
 if [[ $SUDO_USER ]] ; then
-  echo "Just use 'arduino1819.sh'"
+  echo "Just use 'bash arduino1819.sh'"
   exit 1
 fi
 
