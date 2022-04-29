@@ -5,7 +5,7 @@
 #https://dawoum.ddns.net/wiki/Installing_hoffice_2022_beta_on_Ubuntu
 
 if [[ $SUDO_USER ]] ; then
-  echo "Just use 'hoffice112001520.sh'"
+  echo "Just use 'bash hoffice112001520.sh'"
   exit 1
 fi
 
