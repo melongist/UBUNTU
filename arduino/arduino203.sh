@@ -34,13 +34,13 @@ sudo apt -y install fonts-nanum
 
 #desktop shortcut
 touch arduino.desktop
-cp /opt/arduino/resources/app/node_modules/arduino-ide-extension/src/browser/style/ide-logo.png /opt/arduino/ide-logo.png
+cp /opt/arduino/resources/app/node_modules/arduino-ide-extension/src/browser/style/ide-logo.png /opt/arduino/arduino-ide.png
 
 echo "[Desktop Entry]" >> arduino.desktop
 echo "Version=1.0" >> arduino.desktop
 echo "Type=Application" >> arduino.desktop
 echo "Name=Arduino IDE 2.0.3" >> arduino.desktop
-echo "Icon=/opt/arduino/ide-logo.png" >> arduino.desktop
+echo "Icon=/opt/arduino/arduino-ide.png" >> arduino.desktop
 echo "Exec=/opt/arduino/arduino-ide" >> arduino.desktop
 echo "Comment=The Arduino Software IDE" >> arduino.desktop
 echo "Categories=Development;IDE;" >> arduino.desktop
