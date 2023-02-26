@@ -47,6 +47,7 @@ echo "Categories=Development;IDE;" >> arduino.desktop
 echo "Terminal=false" >> arduino.desktop
 sudo mv ./arduino.desktop /usr/share/applications/arduino.desktop
 sudo chmod 644 /usr/share/applications/arduino.desktop
+sudo chmod +x /usr/share/applications/arduino.desktop
 
 #reboot
 clear
