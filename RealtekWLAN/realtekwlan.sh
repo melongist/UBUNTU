@@ -25,12 +25,14 @@ fi
 #git clone https://github.com/HRex39/rtl8852be.git -b dev
 #sudo tar -czvpf ./rtl8852be.tar.gz ./rtl8852be
 
+sudo apt install -y g++ make
+
 wget https://raw.githubusercontent.com/melongist/UBUNTU/master/RealtekWLAN/rtl8852be.tar.gz
 sudo tar -xzvpf ./rtl8852be.tar.gz
 
 cd rtl8852be
 
-make -j8
+sudo make -j8
 
 sudo make install
 
@@ -39,5 +41,7 @@ sudo modprobe 8852be
 cd
 
 sudo rm -rf ./rtl8852be
+
+sudo rm -rf ./rtl8852be.tar.gz
 
 sudo reboot
