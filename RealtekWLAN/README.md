@@ -13,4 +13,6 @@ wget https://raw.githubusercontent.com/melongist/UBUNTU/master/RealtekWLAN/realt
    
 bash realtekwlan.sh
 </code></pre>
-
+    
+#시스템이 재부팅되면 무선랜이 작동하는지 확인해보세요.    
+    
