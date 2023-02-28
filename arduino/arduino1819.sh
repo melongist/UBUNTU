@@ -1,4 +1,4 @@
-#ubuntu 20.04.04 LTS + arduino IDE 1.8.19 Linux 64bits
+#ubuntu 22.04.01 LTS + arduino IDE 1.8.19 Linux 64bits
 
 if [[ $SUDO_USER ]] ; then
   echo "Just use 'bash arduino1819.sh'"
@@ -27,7 +27,7 @@ clear
 
 echo ''
 echo 'arduino 1.8.19 Linux 64 bits'
-echo 'for Ubuntu Desktop 20.04 installed!'
+echo 'for Ubuntu Desktop 22.04.01 installed!'
 echo ''
 echo 'system will be rebooted!'
 echo ''
